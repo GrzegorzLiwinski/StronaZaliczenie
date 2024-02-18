@@ -1,0 +1,99 @@
+body
+{
+	background: linear-gradient(135deg, #da4e02, #0f016d);
+	color: lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+	margin: 0px;
+}
+
+#pojemnik
+{
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#plansza
+{
+	width: 900px;
+	/* margin-top: 50px; */
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+	color: black;
+	
+}
+
+#szubienica
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alfabet
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+	
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+	background-color: black;
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.reset
+{
+	color:green;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.reset:hover
+{
+	color:white;
+}
+
+.margines{
+	margin-left: 0px;
+	margin-top: 0px;
+	width:200px;
+	background-color: white;
+	height: 800px;
+	float: left;
+	border: solid;
+	border-color:#9e8701;
+	background: linear-gradient(135deg, #9e8701, #b41010);	
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+.opisy{
+	font-size: 20px;
+	color: blue;
+	cursor: pointer;
+}

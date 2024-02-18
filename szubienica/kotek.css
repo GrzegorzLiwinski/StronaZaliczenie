@@ -1,0 +1,67 @@
+body
+{
+	background: linear-gradient(135deg, #da4e02, #0f016d);
+	color: lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+#pojemnik{
+  margin-top: 0px;
+  width: 800px;
+  height: 80px;
+  background: linear-gradient(135deg, #9e8701, #b41010);
+  border: solid;
+  border-color:#9e8701;
+  text-align: center;
+  display: block;
+  border-radius: 20px;
+	margin-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.margines{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 30px;
+	width:200px;
+	background-color: white;
+	height: 800px;
+	float: left;
+	border: solid;
+	border-color:#9e8701;
+	background: linear-gradient(135deg, #9e8701, #b41010);	
+	border-radius: 15px;
+  box-sizing: border-box;
+  display: block;
+
+}
+.opisy{
+	font-size: 20px;
+	color: blue;
+  cursor: pointer;
+}
+.galeria{
+	width: 950px;
+	display: flex;
+	overflow-x: scroll;
+	
+}
+.fotki{
+	/* width: 100%; */
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding: 10px;
+	flex: none;
+	
+}
+.foto{
+	width: 300px;
+	border-radius: 10px;
+}
